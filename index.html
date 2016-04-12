@@ -6,175 +6,11 @@
     <meta name="format-detection" content="telephone=no" />
     <link rel="apple-touch-icon" href="画像のパス" />
     <title>第3回うまるスコアアタックランキング</title>
-    <style>
-        @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
-    </style>
-    <style type="text/css">
-    /*
-    html5doctor.com Reset Stylesheet
-    v1.6.1
-    Last Updated: 2010-09-17
-    Author: Richard Clark - http://richclarkdesign.com
-    Twitter: @rich_clark
-    */
-    html, body, div, span, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-    abbr, address, cite, code,
-    del, dfn, em, img, ins, kbd, q, samp,
-    small, strong, sub, sup, var,
-    b, i,
-    dl, dt, dd, ol, ul, li,
-    fieldset, form, label, legend,
-    table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, figcaption, figure,
-    footer, header, hgroup, menu, nav, section, summary,
-    time, mark, audio, video {
-        margin:0;
-        padding:0;
-        border:0;
-        outline:0;
-        font-size:100%;
-        vertical-align:baseline;
-        background:transparent;
-    }
-    body {
-        line-height:1;
-    }
-    article,aside,details,figcaption,figure,
-    footer,header,hgroup,menu,nav,section {
-        display:block;
-    }
-    nav ul {
-        list-style:none;
-    }
-    blockquote, q {
-        quotes:none;
-    }
-    blockquote:before, blockquote:after,
-    q:before, q:after {
-        content:'';
-        content:none;
-    }
-    a {
-        margin:0;
-        padding:0;
-        font-size:100%;
-        vertical-align:baseline;
-        background:transparent;
-    }
-    /* change colours to suit your needs */
-    ins {
-        background-color:#ff9;
-        color:#000;
-        text-decoration:none;
-    }
-    /* change colours to suit your needs */
-    mark {
-        background-color:#ff9;
-        color:#000;
-        font-style:italic;
-        font-weight:bold;
-    }
-    del {
-        text-decoration: line-through;
-    }
-
-    abbr[title], dfn[title] {
-        border-bottom:1px dotted;
-        cursor:help;
-    }
-    table {
-        border-collapse:collapse;
-        border-spacing:0;
-    }
-    /* change border colour to suit your needs */
-
-    input, select {
-        vertical-align:middle;
-    }
-    *, *:before, *:after {
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-     }
-
-    html,body {
-        height: 100%;
-    }
-    body {
-        -webkit-text-size-adjust: 100%;
-        -webkit-tap-highlight-color: rgba(255,105,183,0.6);
-        -webkit-appearance: none;
-        word-break:break-all;
-        font-family: 'Noto Sans Japanese', 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
-        background: #edae2e;
-    }
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-    a {
-        text-decoration: none;
-    }
-    #wrap {
-        width: 100%;
-        border-top: 8px solid #000000;
-    }
-    .logo {
-        width:100%;
-        height: auto;
-        min-height: 100px;
-        margin: 1px auto 0;
-        padding: 20px 0;
-        text-align: center;
-        border-top: 2px solid #000000;
-    }
-    .nav {
-        width: 100%;
-    }
-    .nav.is-fixed {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 2;
-    }
-    .tab__items {
-        display: table;
-        table-layout: fixed;
-        width: 100%;
-        border-bottom: 8px solid #000000;
-    }
-    .tab__item {
-        display: table-cell;
-        width:20%;
-        margin: 0;
-    }
-    .tab__item a {
-        display: block;
-        height: 44px;
-        line-height: 44px;
-        border-right: 1px solid #edae2e;
-        background: #000000;
-        color: #edae2e;
-        text-align: center;
-        -webkit-transition: linear 0.1s;
-        -o-transition: linear 0.1s;
-        transition: linear 0.1s;
-    }
-    .tab__item:last-child a {
-        border-right: none;
-    }
-    .tab__item a:hover {
-        background: #edae2e;
-        color: #000000;
-    }
-
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
     <div id="wrap">
-        <header><h1 class="logo">SCORE ATTACK</h1></header>
+        <header><h1 class="logo"><img src="img/logo.png" srcset="img/logo.png 2x"></h1></header>
 
         <div class="nav">
         <nav>
@@ -186,73 +22,102 @@
                 <li class="tab__item"><a href="#">4th</a></li>
             </ul>
         </nav>
-        <div class="detail"></div>
-        </div><!-- .fixedArea -->
-        <div class="ranking">
-            <ul>
-                <li>
-                    <dl>
-                        <dt>U.M.R</dt>
-                        <dd>1,010,000</dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>U.M.R</dt>
-                        <dd>1,009,500</dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>U.M.R</dt>
-                        <dd>1,009,500</dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>U.M.R</dt>
-                        <dd>1,009,500</dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>U.M.R</dt>
-                        <dd>1,009,500</dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>U.M.R</dt>
-                        <dd>1,009,500</dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>U.M.R</dt>
-                        <dd>1,009,500</dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>U.M.R</dt>
-                        <dd>1,009,500</dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>U.M.R</dt>
-                        <dd>1,009,500</dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl>
-                        <dt>U.M.R</dt>
-                        <dd>1,009,500</dd>
-                    </dl>
-                </li>
-            </ul>
+        <div class="detailas">
+            <div class="detail total active close">
+                <div class="detail__thumb"><img src="img/detail__thumb01.png" srcset="img/detail__thumb01.png 2x"></div>
+                <div class="detail__caption">
+                    <p class="detail__caption__item">第3回うまるスコアアタック</p>
+                    <p class="detail__caption__item">イロドリミドリカップ</p>
+                </div>
+            </div>
+            <div class="detail master active">
+                <div class="detail__thumb"><img src="img/detail__thumb01.png" srcset="img/detail__thumb01.png 2x"></div>
+                <div class="detail__caption">
+                    <p class="detail__caption__item">第3回うまるスコアアタック</p>
+                    <p class="detail__caption__item">イロドリミドリカップ</p>
+                </div>
+            </div>
         </div>
-        <fotter>&copy; 2016 kinaco.</fotter>
+        </div><!-- .nav -->
+        <div class="rank active">
+            <ol class="rank__items">
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">1位</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CHUNITM</p>
+                            <p class="score">1,010,000</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">2位</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CHUNITM</p>
+                            <p class="score">1,010,000</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">3位</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CHUNITM</p>
+                            <p class="score">1,010,000</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">4位</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CHUNITM</p>
+                            <p class="score">1,010,000</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">5位</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CHUNITM</p>
+                            <p class="score">1,010,000</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">6位</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CHUNITM</p>
+                            <p class="score">1,010,000</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">7位</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CHUNITM</p>
+                            <p class="score">1,010,000</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">1位</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CHUNITM</p>
+                            <p class="score">1,010,000</p></dd>
+                    </dl>
+                </li>
+
+            </ol>
+        </div>
+        <fotter>
+        <div class="fotter">
+        <p class="copy">Copyright &copy; 2016 <a href="https://twitter.com/_cnknc_" target="_blank">kinaco.</a></p>
+        </div></fotter>
     </div><!-- #wrap -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery//1.11.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+
+        });
+    </script>
 </body>
 </html>
