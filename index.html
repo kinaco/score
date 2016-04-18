@@ -4,119 +4,574 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
     <meta name="format-detection" content="telephone=no" />
-    <link rel="apple-touch-icon" href="画像のパス" />
+    <link rel="apple-touch-icon" href="img/touch__icon.png" />
     <title>第3回うまるスコアアタックランキング</title>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div id="wrap">
-        <header><h1 class="logo"><img src="img/logo.png" srcset="img/logo.png 2x"></h1></header>
+<div id="loader__bg">
+    <div id="loader"><img src="img/load.png" srcset="img/load.png 2x">
+    <p>Now Loading...</p>
+    </div>
+</div>
+<div id="wrapper">
+    <div class="wrap">
+        <header>
+        <div class="header">
+        <h1 class="logo"><img src="img/logo.png" srcset="img/logo.png 2x"></h1>
 
-        <div class="nav">
+        <div class="nav js-nav">
         <nav>
-            <ul class="tab__items">
-                <li class="tab__item"><a href="#">Total</a></li>
-                <li class="tab__item"><a href="#">1st</a></li>
-                <li class="tab__item"><a href="#">2nd</a></li>
-                <li class="tab__item"><a href="#">3rd</a></li>
-                <li class="tab__item"><a href="#">4th</a></li>
+            <ul class="tab__items js-tab__items">
+                <li class="tab__item js-tab__item"><a href="#">Total</a></li>
+                <li class="tab__item js-tab__item"><a href="#">1st</a></li>
+                <li class="tab__item js-tab__item"><a href="#">2nd</a></li>
+                <li class="tab__item js-tab__item"><a href="#">3rd</a></li>
+                <li class="tab__item js-tab__item"><a href="#">4th</a></li>
             </ul>
         </nav>
-        <div class="detailas">
-            <div class="detail total active close">
+        <div class="detailas js-details">
+            <div class="detail total js-detail">
                 <div class="detail__thumb"><img src="img/detail__thumb01.png" srcset="img/detail__thumb01.png 2x"></div>
                 <div class="detail__caption">
                     <p class="detail__caption__item">第3回うまるスコアアタック</p>
                     <p class="detail__caption__item">イロドリミドリカップ</p>
                 </div>
             </div>
-            <div class="detail master active">
-                <div class="detail__thumb"><img src="img/detail__thumb01.png" srcset="img/detail__thumb01.png 2x"></div>
+            <div class="detail master js-detail">
+                <div class="detail__thumb"><img src="img/detail__thumb02.png" srcset="img/detail__thumb02.png 2x"></div>
                 <div class="detail__caption">
-                    <p class="detail__caption__item">第3回うまるスコアアタック</p>
-                    <p class="detail__caption__item">イロドリミドリカップ</p>
+                <p class="detail__caption__item master">MASTER<span class="level">11+</span></p>
+                    <p class="detail__caption__item">brilliant better</p>
+                </div>
+            </div>
+            <div class="detail master js-detail">
+                <div class="detail__thumb"><img src="img/detail__thumb03.png" srcset="img/detail__thumb03.png 2x"></div>
+                <div class="detail__caption">
+                <p class="detail__caption__item master">MASTER<span class="level">11+</span></p>
+                    <p class="detail__caption__item">Change Our MIRAI！</p>
+                </div>
+            </div>
+            <div class="detail master js-detail">
+                <div class="detail__thumb"><img src="img/detail__thumb04.png" srcset="img/detail__thumb04.png 2x"></div>
+                <div class="detail__caption">
+                <p class="detail__caption__item master">MASTER<span class="level">12</span></p>
+                    <p class="detail__caption__item channagi">私の中の幻想的世界観及びその顕現を想起させたある現実での出来事に関する一考察</p>
+                </div>
+            </div>
+            <div class="detail master js-detail">
+                <div class="detail__thumb"><img src="img/detail__thumb05.png" srcset="img/detail__thumb05.png 2x"></div>
+                <div class="detail__caption">
+                <p class="detail__caption__item master">MASTER<span class="level">12</span></p>
+                    <p class="detail__caption__item">無敵We are one!!</p>
                 </div>
             </div>
         </div>
         </div><!-- .nav -->
-        <div class="rank active">
-            <ol class="rank__items">
-                <li class="rank__item">
-                    <dl class="rank__item__inner">
-                        <dt class="rank__item__num">1位</dt>
-                        <dd class="rank__item__player">
-                            <p class="name">CHUNITM</p>
-                            <p class="score">1,010,000</p></dd>
-                    </dl>
-                </li>
-                <li class="rank__item">
-                    <dl class="rank__item__inner">
-                        <dt class="rank__item__num">2位</dt>
-                        <dd class="rank__item__player">
-                            <p class="name">CHUNITM</p>
-                            <p class="score">1,010,000</p></dd>
-                    </dl>
-                </li>
-                <li class="rank__item">
-                    <dl class="rank__item__inner">
-                        <dt class="rank__item__num">3位</dt>
-                        <dd class="rank__item__player">
-                            <p class="name">CHUNITM</p>
-                            <p class="score">1,010,000</p></dd>
-                    </dl>
-                </li>
-                <li class="rank__item">
-                    <dl class="rank__item__inner">
-                        <dt class="rank__item__num">4位</dt>
-                        <dd class="rank__item__player">
-                            <p class="name">CHUNITM</p>
-                            <p class="score">1,010,000</p></dd>
-                    </dl>
-                </li>
-                <li class="rank__item">
-                    <dl class="rank__item__inner">
-                        <dt class="rank__item__num">5位</dt>
-                        <dd class="rank__item__player">
-                            <p class="name">CHUNITM</p>
-                            <p class="score">1,010,000</p></dd>
-                    </dl>
-                </li>
-                <li class="rank__item">
-                    <dl class="rank__item__inner">
-                        <dt class="rank__item__num">6位</dt>
-                        <dd class="rank__item__player">
-                            <p class="name">CHUNITM</p>
-                            <p class="score">1,010,000</p></dd>
-                    </dl>
-                </li>
-                <li class="rank__item">
-                    <dl class="rank__item__inner">
-                        <dt class="rank__item__num">7位</dt>
-                        <dd class="rank__item__player">
-                            <p class="name">CHUNITM</p>
-                            <p class="score">1,010,000</p></dd>
-                    </dl>
-                </li>
-                <li class="rank__item">
-                    <dl class="rank__item__inner">
-                        <dt class="rank__item__num">1位</dt>
-                        <dd class="rank__item__player">
-                            <p class="name">CHUNITM</p>
-                            <p class="score">1,010,000</p></dd>
-                    </dl>
-                </li>
-
-            </ol>
         </div>
-        <fotter>
-        <div class="fotter">
-        <p class="copy">Copyright &copy; 2016 <a href="https://twitter.com/_cnknc_" target="_blank">kinaco.</a></p>
-        </div></fotter>
-    </div><!-- #wrap -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery//1.11.0/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(function(){
+        </header>
 
+        <div class="rank js-rank">
+            <ol class="rank__items js-rank__items js-rank__items">
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">1</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CK.TSU</p>
+                            <p class="score">4,039,893</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">2</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CGP†NASU</p>
+                            <p class="score">4,039,875</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">3</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">sitta*</p>
+                            <p class="score">4,039,793</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">4</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">RQWAZ</p>
+                            <p class="score">4,039,724</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">5</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">ME･D*UMR</p>
+                            <p class="score">4,039,030</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">6</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">U･M･R</p>
+                            <p class="score">4,038,857</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">7</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">514*UMR</p>
+                            <p class="score">4,037,593</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">8</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">MAO.*UMR</p>
+                            <p class="score">4,030,528</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">9</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">REI*UMR</p>
+                            <p class="score">3,029,814</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">10</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">L.UMR</p>
+                            <p class="score">2,019,439</p></dd>
+                    </dl>
+                </li>
+            </ol>
+        </div><!-- rank -->
+
+        <div class="rank js-rank">
+            <ol class="rank__items js-rank__items">
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">1</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CGP†NASU</p>
+                            <p class="score">1,009,992</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">2</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CK.TSU</p>
+                            <p class="score">1,009,986</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">3</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">RQWAZ</p>
+                            <p class="score">1,009,980</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">4</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">REI*UMR</p>
+                            <p class="score">1,009,967</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">5</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">sitta*</p>
+                            <p class="score">1,009,960</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">6</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">ME･D*UMR</p>
+                            <p class="score">1,009,882</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">7</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">514*UMR</p>
+                            <p class="score">1,009,862</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">8</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">L.UMR</p>
+                            <p class="score">1,009,575</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">9</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">U･M･R</p>
+                            <p class="score">1,009,549</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">10</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">MAO.*UMR</p>
+                            <p class="score">1,008,158</p></dd>
+                    </dl>
+                </li>
+            </ol>
+        </div><!-- rank -->
+
+        <div class="rank js-rank">
+            <ol class="rank__items js-rank__items">
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">1</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CGP†NASU</p>
+                            <p class="score">1,009,993</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">2</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CK.TSU</p>
+                            <p class="score">1,009,984</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">3</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">sitta*</p>
+                            <p class="score">1,009,969</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">4</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">RQWAZ</p>
+                            <p class="score">1,009,969</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">5</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">REI*UMR</p>
+                            <p class="score">1,009,969</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">6</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">514*UMR</p>
+                            <p class="score">1,009,917</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">7</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">ME･D*UMR</p>
+                            <p class="score">1,009,879</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">8</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">L.UMR</p>
+                            <p class="score">1,009,864</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">9</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">U･M･R</p>
+                            <p class="score">1,009,699</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">10</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">MAO.*UMR</p>
+                            <p class="score">1,008,661</p></dd>
+                    </dl>
+                </li>
+            </ol>
+        </div><!-- rank -->
+
+        <div class="rank js-rank">
+            <ol class="rank__items js-rank__items">
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">1</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CK.TSU</p>
+                            <p class="score">1,009,935</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">2</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">sitta*</p>
+                            <p class="score">1,009,909</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">3</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CGP†NASU</p>
+                            <p class="score">1,009,902</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">4</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">RQWAZ</p>
+                            <p class="score">1,009,825</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">5</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">U･M･R</p>
+                            <p class="score">1,009,676</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">6</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">ME･D*UMR</p>
+                            <p class="score">1,007,975</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">7</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CHUNITM</p>
+                            <p class="score">1,010,000</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">8</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">MAO.*UMR</p>
+                            <p class="score">1,005,084</p></dd>
+                    </dl>
+                </li>
+            </ol>
+        </div><!-- rank -->
+
+        <div class="rank js-rank">
+            <ol class="rank__items js-rank__items">
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">1</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CK.TSU</p>
+                            <p class="score">1,009,988</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">2</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CGP†NASU</p>
+                            <p class="score">1,009,988</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">3</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">sitta*</p>
+                            <p class="score">1,009,955</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">4</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">ME･D*UMR</p>
+                            <p class="score">1,009,955</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">5</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">RQWAZ</p>
+                            <p class="score">1,009,950</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">6</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">U･M･R</p>
+                            <p class="score">1,009,933</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">7</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">REI*UMR</p>
+                            <p class="score">1,009,878</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">8</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">514*UMR</p>
+                            <p class="score">1,009,839</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">9</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">MAO.*UMR</p>
+                            <p class="score">1,008,625</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">10</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CHUNITM</p>
+                            <p class="score">1,010,000</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">11</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CHUNITM</p>
+                            <p class="score">1,010,000</p></dd>
+                    </dl>
+                </li>
+                <li class="rank__item">
+                    <dl class="rank__item__inner">
+                        <dt class="rank__item__num">12</dt>
+                        <dd class="rank__item__player">
+                            <p class="name">CHUNITM</p>
+                            <p class="score">1,010,000</p></dd>
+                    </dl>
+                </li>
+            </ol>
+        </div><!-- rank -->
+        </div><!-- #wrap -->
+        <footer>
+        <div class="footer">
+        <div class="fotter__btn">
+            <a aria-hidden="true" href="https://twitter.com/intent/tweet?button_hashtag=%E3%83%81%E3%83%BC%E3%83%A0%E3%81%86%E3%81%BE%E3%82%8B%E4%BA%A4%E6%B5%81%E6%88%A6&text=%E3%83%81%E3%83%BC%E3%83%A0%E3%81%86%E3%81%BE%E3%82%8B%E3%82%B9%E3%82%B3%E3%82%A2%E3%82%A2%E3%82%BF%E3%83%83%E3%82%AF%EF%BD%9E%E3%82%A4%E3%83%AD%E3%83%89%E3%83%AA%E3%83%9F%E3%83%89%E3%83%AA%E6%9D%AF%EF%BD%9E%E7%B5%90%E6%9E%9C%E7%99%BA%E8%A1%A8&url=https://goo.gl/zHx19U" class="twitter-hashtag-button fa fa-twitter fa-2x" data-lang="ja" data-url="https://goo.gl/zHx19U"></a>
+            <a href="https://sites.google.com/site/teamumrchunithm/" class="fa fa-home fa-2x" aria-hidden="true" target="_blank"></a>
+            <!-- <a href="https://sites.google.com/site/teamumrchunithm/" class="fa fa-info fa-2x" aria-hidden="true"></a> -->
+        </div>
+        <p class="copy">Copyright &copy; 2016 <a href="https://twitter.com/_cnknc_" target="_blank">kinaco.</a></p>
+        </div></footer>
+    </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery//1.11.0/jquery.min.js"></script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+    <script type="text/javascript">
+        var $window = $(window),
+            $wrapper = $('#wrapper'),
+            $loaderBg = $('#loader__bg'),
+            $loader = $('#loader');
+        $(function(){
+            var h = $window.height();
+            $wrapper.css('display','none');
+            $loaderBg.height(h).css('display','block');
+            $loader.height(h).css('display','block');
+        });
+        $window.load(function(){
+            $loaderBg.delay(900).fadeOut(800);
+            $loader.delay(600).fadeOut(300);
+            $wrapper.css('display','block');
+        })
+
+        $(function(){
+            var $header = $('.header'),
+                $logo = $header.find('.logo'),
+                $nav = $('.js-nav'),
+                $tabItems = $('.js-tab__items'),
+                $tabItem = $tabItems.find('.js-tab__item'),
+                $detailItems = $('.js-details'),
+                $detailItem = $detailItems.find('.js-detail'),
+                $rank = $('.js-rank'),
+                $rankItems = $rank.find('.js-rank__items'),
+                navTop = $nav.offset().top;
+
+            init();
+            $tabItem.on("click",changeTab);
+            $window.on("load scroll", scrollPage);
+            $('body').bind("touchmove", scrollPage);
+
+
+            function init() {
+                $tabItem.eq(0).addClass('active');
+                $detailItem.eq(0).addClass('active');
+                $rank.eq(0).addClass('active');
+            }
+
+            function changeTab() {
+                var $this = $(this),
+                    index = $this.index();
+                $tabItem.removeClass('active');
+                $this.addClass('active');
+                $detailItem
+                    .removeClass('active')
+                    .eq(index)
+                    .addClass('active');
+                $rank
+                    .removeClass('active')
+                    .eq(index)
+                    .addClass('active');
+            }
+
+            function scrollPage() {
+                if ($window.scrollTop() > 60) {
+                    $logo.addClass('hide');
+                } else {
+                    $logo.removeClass('hide');
+                }
+            }
         });
     </script>
 </body>
